@@ -1,5 +1,5 @@
 FROM percona:5.7.26
-USER root
+USER mysql
 LABEL creater="barnett"
 ENV MYSQL_VERSION=5.7.26
 ENV TZ=Asia/Shanghai
